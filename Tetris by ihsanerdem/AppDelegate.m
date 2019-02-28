@@ -1,5 +1,5 @@
 //
-//  AppDelegate.m
+//  AppDelegate.h
 //  Tetris by ihsanerdem
 //
 //  Created by Erdem Meral on 2/27/19.

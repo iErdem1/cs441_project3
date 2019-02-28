@@ -1,5 +1,5 @@
 //
-//  GameViewController.h
+//  AppDelegate.h
 //  Tetris by ihsanerdem
 //
 //  Created by Erdem Meral on 2/27/19.
@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <SpriteKit/SpriteKit.h>
-#import <GameplayKit/GameplayKit.h>
 
-@interface GameViewController : UIViewController
+@interface Cell : UIView
+
+@property (nonatomic) int xIndex;
+@property (nonatomic) int yIndex;
+@property (nonatomic) BOOL full;
 
 @end
