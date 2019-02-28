@@ -105,3 +105,123 @@ Date:   Tue Feb 26 22:42:56 2019 -0500
 
  LICENSE | 674 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  1 file changed, 674 insertions(+)
+commit f82b5306c9b34973c72f0dc3e189c13cb46058ea
+Author: Ahmed Ihsan Erdem <ahmedihsanerdem@gmail.com>
+Date:   Thu Feb 28 00:00:56 2019 -0500
+
+    log file added for instructer.
+    
+    Signed-off-by: Ahmed Ihsan Erdem <ahmedihsanerdem@gmail.com>
+
+ .gitignore |   3 ++
+ README.md  |  17 ++++++++--
+ p3.log     | 107 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 124 insertions(+), 3 deletions(-)
+
+commit fc99e462f9bcfba83c1803d5ec9ef876ec5bebf5
+Author: Ahmed Ihsan Erdem <ahmedihsanerdem@gmail.com>
+Date:   Wed Feb 27 23:45:26 2019 -0500
+
+    project almost completed
+    
+    Signed-off-by: Ahmed Ihsan Erdem <ahmedihsanerdem@gmail.com>
+
+ Tetris by ihsanerdem/Actions.sks                   | Bin 1892 -> 0 bytes
+ Tetris by ihsanerdem/AppDelegate.h                 |   1 +
+ Tetris by ihsanerdem/AppDelegate.m                 |   2 +-
+ .../{GameViewController.h => Cell.h}               |  10 +-
+ Tetris by ihsanerdem/Cell.m                        |  21 +
+ Tetris by ihsanerdem/GameScene.h                   |  13 -
+ Tetris by ihsanerdem/GameScene.m                   |  82 ---
+ Tetris by ihsanerdem/GameScene.sks                 | Bin 4694 -> 0 bytes
+ Tetris by ihsanerdem/GameViewController.m          |  53 --
+ Tetris by ihsanerdem/Info.plist                    |   4 +-
+ Tetris by ihsanerdem/ViewController.h              |  32 +
+ Tetris by ihsanerdem/ViewController.m              | 641 +++++++++++++++++++++
+ Tetris by ihsanerdem/main.m                        |   2 +-
+ Tetris by ihsanerdem/pause.png                     | Bin 0 -> 675 bytes
+ 14 files changed, 704 insertions(+), 157 deletions(-)
+
+commit b5d6d1e722d971df60bd64fa1c82085c4dfa7d23
+Author: Ahmed Ihsan Erdem <ahmedihsanerdem@gmail.com>
+Date:   Wed Feb 27 22:54:52 2019 -0500
+
+    project files created
+    
+    Signed-off-by: Ahmed Ihsan Erdem <ahmedihsanerdem@gmail.com>
+
+ Tetris by ihsanerdem.xcodeproj/project.pbxproj     | 590 +++++++++++++++++++++
+ .../project.xcworkspace/contents.xcworkspacedata   |   7 +
+ .../xcshareddata/IDEWorkspaceChecks.plist          |   8 +
+ .../UserInterfaceState.xcuserstate                 | Bin 0 -> 9764 bytes
+ .../xcschemes/xcschememanagement.plist             |  14 +
+ Tetris by ihsanerdem/Actions.sks                   | Bin 0 -> 1892 bytes
+ Tetris by ihsanerdem/AppDelegate.h                 |  17 +
+ Tetris by ihsanerdem/AppDelegate.m                 |  51 ++
+ .../AppIcon.appiconset/Contents.json               | 110 ++++
+ .../AppIcon.appiconset/Icon-App-20x20@1x.png       | Bin 0 -> 889 bytes
+ .../AppIcon.appiconset/Icon-App-20x20@2x-1.png     | Bin 0 -> 2223 bytes
+ .../AppIcon.appiconset/Icon-App-20x20@2x.png       | Bin 0 -> 2223 bytes
+ .../AppIcon.appiconset/Icon-App-20x20@3x.png       | Bin 0 -> 3993 bytes
+ .../AppIcon.appiconset/Icon-App-29x29@1x.png       | Bin 0 -> 1455 bytes
+ .../AppIcon.appiconset/Icon-App-29x29@2x-1.png     | Bin 0 -> 3850 bytes
+ .../AppIcon.appiconset/Icon-App-29x29@2x.png       | Bin 0 -> 3850 bytes
+ .../AppIcon.appiconset/Icon-App-29x29@3x.png       | Bin 0 -> 7209 bytes
+ .../AppIcon.appiconset/Icon-App-40x40@1x.png       | Bin 0 -> 2223 bytes
+ .../AppIcon.appiconset/Icon-App-40x40@2x-1.png     | Bin 0 -> 6328 bytes
+ .../AppIcon.appiconset/Icon-App-40x40@2x.png       | Bin 0 -> 6328 bytes
+ .../AppIcon.appiconset/Icon-App-40x40@3x.png       | Bin 0 -> 12175 bytes
+ .../AppIcon.appiconset/Icon-App-60x60@2x.png       | Bin 0 -> 12175 bytes
+ .../AppIcon.appiconset/Icon-App-60x60@3x.png       | Bin 0 -> 23762 bytes
+ .../AppIcon.appiconset/Icon-App-76x76@1x.png       | Bin 0 -> 5823 bytes
+ .../AppIcon.appiconset/Icon-App-76x76@2x.png       | Bin 0 -> 17818 bytes
+ .../AppIcon.appiconset/Icon-App-83.5x83.5@2x.png   | Bin 0 -> 20804 bytes
+ Tetris by ihsanerdem/Assets.xcassets/Contents.json |   6 +
+ .../Base.lproj/LaunchScreen.storyboard             |  25 +
+ Tetris by ihsanerdem/Base.lproj/Main.storyboard    |  24 +
+ Tetris by ihsanerdem/GameScene.h                   |  13 +
+ Tetris by ihsanerdem/GameScene.m                   |  82 +++
+ Tetris by ihsanerdem/GameScene.sks                 | Bin 0 -> 4694 bytes
+ Tetris by ihsanerdem/GameViewController.h          |  15 +
+ Tetris by ihsanerdem/GameViewController.m          |  53 ++
+ Tetris by ihsanerdem/Info.plist                    |  47 ++
+ Tetris by ihsanerdem/main.m                        |  16 +
+ Tetris by ihsanerdemTests/Info.plist               |  22 +
+ .../Tetris_by_ihsanerdemTests.m                    |  39 ++
+ Tetris by ihsanerdemUITests/Info.plist             |  22 +
+ .../Tetris_by_ihsanerdemUITests.m                  |  40 ++
+ 40 files changed, 1201 insertions(+)
+
+commit 046f0d56565986f5c36fbb25f4704829a5d17018
+Author: Ahmed Ihsan Erdem <ahmedihsanerdem@gmail.com>
+Date:   Wed Feb 27 22:37:26 2019 -0500
+
+    icons added to project file
+    
+    Signed-off-by: Ahmed Ihsan Erdem <ahmedihsanerdem@gmail.com>
+
+ down-icon.png    | Bin 0 -> 1065 bytes
+ goLeft-icon.png  | Bin 0 -> 1313 bytes
+ goRight-icon.png | Bin 0 -> 1294 bytes
+ left-icon.png    | Bin 0 -> 999 bytes
+ right-icon.png   | Bin 0 -> 992 bytes
+ up-icon.png      | Bin 0 -> 949 bytes
+ 6 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 5b1c82348e00e41d8d0d4b6262cbf637019809f7
+Author: Ahmed Ihsan Erdem <ahmedihsanerdem@gmail.com>
+Date:   Tue Feb 26 22:45:52 2019 -0500
+
+    README.md added.
+
+ README.md | 24 ++++++++++++++++++++++++
+ 1 file changed, 24 insertions(+)
+
+commit 0d53d1943c656801d37a660ff00216f510a58e32
+Author: Ahmed Ihsan Erdem <ahmedihsanerdem@gmail.com>
+Date:   Tue Feb 26 22:42:56 2019 -0500
+
+    Init
+
+ LICENSE | 674 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 674 insertions(+)
